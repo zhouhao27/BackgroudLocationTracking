@@ -1,0 +1,5 @@
+static let http = "https://"
+static let host = "web-move-uat.lta.gov.sg"
+static let port = 443
+static let baseUrl = "\(http)\(host):\(port)/LTAMOVEAPI/api"
+static let webk = "7ADFA7CF-5F47-4BCC-9D58-F76060EB73E5"

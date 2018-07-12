@@ -140,11 +140,15 @@ class ViewController: UIViewController {
   
   func generateMessage() -> String {
     let locationAge = Double(-currentLocation.timestamp.timeIntervalSinceNow).format(f: "03")
-    let distance = Double(lastLocation.distance(from: currentLocation)).format(f: "03")
+    let distance = isLocationInValid() ? "0" : Double(lastLocation.distance(from: currentLocation)).format(f: "03")
     let lat = currentLocation.coordinate.latitude
     let long = currentLocation.coordinate.longitude
     let message = "location=(\(lat),\(long))\ndistance=\(distance)\naccuracy=\(currentLocation.horizontalAccuracy)\nlocation age=\(locationAge)\nat \(Date().toString())"
     return message
+  }
+  
+  func isLocationInValid() -> Bool {
+    return lastLocation.coordinate.latitude == 0 && lastLocation.coordinate.longitude == 0 || currentLocation.coordinate.latitude == 0 && currentLocation.coordinate.longitude == 0
   }
 }
 

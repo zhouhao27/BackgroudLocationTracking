@@ -27,6 +27,7 @@
 		6A063AEB20EE0EAA00ADFB4F /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A063AE920EE0EAA00ADFB4F /* Keys.swift */; };
 		6A10BBEF20EB6C3C003B92E1 /* Alamofire+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A10BBEE20EB6C3C003B92E1 /* Alamofire+Array.swift */; };
 		6A10BBF120EB7695003B92E1 /* LocationMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A10BBF020EB7695003B92E1 /* LocationMonitor.swift */; };
+		6A52826520F7065B00C3449E /* settings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A52826420F7065B00C3449E /* settings.txt */; };
 		6C0668D2175EB4C5E93F327C /* Pods_BackgroundTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F139F4F1C455564DD37DC43 /* Pods_BackgroundTask.framework */; };
 		9BF8E98DA1B4CBD993C01B26 /* Pods_BackgroundTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A01ADB8C03DB18D55039C3D /* Pods_BackgroundTaskTests.framework */; };
 /* End PBXBuildFile section */
@@ -79,7 +80,7 @@
 		6A063AE920EE0EAA00ADFB4F /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		6A10BBEE20EB6C3C003B92E1 /* Alamofire+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+Array.swift"; sourceTree = "<group>"; };
 		6A10BBF020EB7695003B92E1 /* LocationMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMonitor.swift; sourceTree = "<group>"; };
-		6A52826220F7056400C3449E /* settings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = settings.txt; sourceTree = "<group>"; };
+		6A52826420F7065B00C3449E /* settings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = settings.txt; sourceTree = "<group>"; };
 		6D04A129E0E5B95B97DEB13F /* Pods-BackgroundTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundTaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BackgroundTaskUITests/Pods-BackgroundTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8707A0DE816BE7ED86974C04 /* Pods_BackgroundTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackgroundTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0BEAA7D9191FF15AEE5E0A /* Pods-BackgroundTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-BackgroundTask/Pods-BackgroundTask.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 		5BC607E51D7146AC00D5C97A = {
 			isa = PBXGroup;
 			children = (
+				6A52826420F7065B00C3449E /* settings.txt */,
 				5BC607F01D7146AC00D5C97A /* test */,
 				5BC608051D7146AC00D5C97A /* testTests */,
 				5BC608101D7146AC00D5C97A /* testUITests */,
@@ -163,7 +165,6 @@
 				5B7F21651D71963A00D0A65D /* 3.wav */,
 				5BC607FD1D7146AC00D5C97A /* Info.plist */,
 				6A063AD920EE0B4F00ADFB4F /* Settings.swift */,
-				6A52826220F7056400C3449E /* settings.txt */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -332,6 +333,7 @@
 				5BC607FC1D7146AC00D5C97A /* LaunchScreen.storyboard in Resources */,
 				5BC607F91D7146AC00D5C97A /* Assets.xcassets in Resources */,
 				5BC607F71D7146AC00D5C97A /* Main.storyboard in Resources */,
+				6A52826520F7065B00C3449E /* settings.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
